@@ -1,0 +1,118 @@
+/* centering the h1 */
+h1 {
+  text-align: center;
+}
+
+.marker {
+  height: 25px;
+  width: 200px;
+  /* centering with margin and separating the lines*/
+  margin: 10px auto;
+}
+
+.red {
+  /* transition colors with the linear gradient */
+  background: linear-gradient(
+    180deg,
+    rgb(122, 74, 14),
+    rgb(245, 62, 113),
+    rgb(162, 27, 27)
+  );
+  /* shadow upwards */
+  /* box-shadow: 5px 5px #f00; */
+
+  /*shadow downwards  */
+  /* box-shadow: -5px -5px #f00; */
+
+  /*shadow with blurradius and spreadradius  */
+  box-shadow: 0 0 20px 0 rgba(83, 14, 14, 0.8);
+
+  /* linear-graadient */
+  /* background: linear-gradient(
+    90deg,
+    rgb(255, 0, 0),
+    rgb(0, 255, 0),
+    rgb(0, 0, 255)
+  ); */
+
+  /* linear-graadient || adding a 75% high color to the red*/
+  /* background: linear-gradient(
+    90deg,
+    rgb(255, 0, 0)75%,
+    rgb(0, 255, 0),
+    rgb(0, 0, 255)
+  ); */
+
+  /* secondary color: yellow background: rgb(255, 255, 0);*/
+
+  /* tertiary-color: orange   background-color: rgb(255, 127, 0);*/
+
+  /* tertiary-color: chartreuse green  background-color: rgb(127, 255, 0);*/
+  /* 
+  background-color: rgb(255, 0, 0); */
+  /*primary-colors: red background: rgb(255, 0, 0); */
+}
+
+.green {
+  /* box shadow with bluring effect */
+  box-shadow: 0 0 20px 0 #0f0;
+
+  /* transtioning color for green with linear gradient */
+  background: linear-gradient(#55680d, #71f53e, #116c31);
+  /* setting the green color darker by reducing it to 127*/
+
+  /* secondary-color: cyan   background-color: rgb(0, 255, 255);*/
+
+  /* tertiary-color: spring-green   background-color: rgb(0, 255, 127);*/
+
+  /* tertiary-color: azure    background-color: rgb(0, 127, 225);*/
+
+  /* hex code colors */
+  /* background-color: #007f00; */
+  /* primary-colors: green background: rgb(0, 255, 0); */
+}
+
+.blue {
+  /* transitioning hsl color with linear-gradient */
+  background: linear-gradient(
+    hsl(186, 76%, 16%),
+    hsl(223, 90%, 60%),
+    hsl(240, 56%, 42%)
+  );
+
+  /* secondary-color: magenta background: rgb(255, 0, 255);*/
+
+  /* tertiary-color: voilet   background-color: rgb(127, 0, 255);*/
+
+  /* tertiary-color: rose  background-color: rgb(255, 0, 127);*/
+
+  /* hsl */
+  /* background-color: hsl(240, 100%, 50%); */
+  /* primary-colors: blue background: rgb(0, 0, 255); */
+  /* box shadow with blurradius and spreadraduis */
+  box-shadow: 0 0 20px 0 #00f;
+} 
+
+/* rgb */
+.container {
+  /* for white */
+  background: rgb(255, 255, 255);
+  /* spacing it vertically with padding */
+  padding: 10px 0;
+}
+
+.sleeve {
+  width: 110px;
+  height: 25px;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-left: 10px double rgba(0, 0, 0, 0.75);
+}
+
+.cap{
+  width: 60px;
+  height: 25px;
+}
+
+.cap, .sleeve{
+  display: inline-block;
+}
